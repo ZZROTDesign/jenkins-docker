@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ci:
+    image: jenkins:2.0
+    ports:
+      - "8080:8080"
+      - "50000:50000"
